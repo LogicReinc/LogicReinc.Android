@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/LogicReinc.Android.TestApp"
+    xmlns:lra="LogicReinc.Android.Binding."
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root">
+  <LogicReinc.Android.Binding.BoundTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:textSize="30dp"
+        app:binding="Name" />
+  <LogicReinc.Android.Binding.BoundTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        app:binding="Description" />
+  <LogicReinc.Android.Binding.BoundTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Even"
+        app:visibility_binding="IsEven" />
+  <LogicReinc.Android.Binding.BoundEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        app:binding="InputSearch" />
+
+
+  <LogicReinc.Android.Binding.BoundButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:binding="ButtonText"
+        app:onclick="OnClick" />
+  <LogicReinc.Android.Binding.BoundButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Description"
+        app:onclick="OnSetDescription" />
+  <LogicReinc.Android.Binding.BoundButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Count"
+        app:onclick="OnCountClick" />
+
+  <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+      <LogicReinc.Android.Binding.BoundLinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          app:binding="Items" />
+   </ScrollView>
+</LinearLayout>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <declare-styleable name="BoundItem">
+    <attr name="binding" format="string" />
+    <attr name="visibility_binding" format="string" />
+  </declare-styleable>
+  <declare-styleable name="BoundConditional">
+    <attr name="bindvalue" format="string" />
+  </declare-styleable>
+  <declare-styleable name="BoundButton">
+    <attr name="onclick" format="string" />
+  </declare-styleable>
+</resources>

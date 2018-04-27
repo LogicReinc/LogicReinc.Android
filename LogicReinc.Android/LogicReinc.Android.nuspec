@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>1.0.0.0-alpha</version>
+    <title>LogicReinc.Android</title>
+    <authors>LogicReinc</authors>
+    <owners>LogicReinc</owners>
+    <licenseUrl>https://raw.githubusercontent.com/LogicReinc/LogicReinc.Android/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/LogicReinc/LogicReinc.Android</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>An Android framework that contains various features like UI binding functionality to make life easier.</description>
+    <releaseNotes>Initial</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>Android LogicReinc MVC Binding</tags>
+  </metadata>
+</package>

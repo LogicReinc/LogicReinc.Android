@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Package</id>
+    <version>1.0.0-beta</version>
+    <authors>LogicReinc</authors>
+    <owners>LogicReinc</owners>
+    <licenseUrl>https://raw.githubusercontent.com/LogicReinc/LogicReinc.Android/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/LogicReinc/LogicReinc.Android</projectUrl>
+    <iconUrl></iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Package description</description>
+    <releaseNotes>Initial Release</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>Android LogicReinc MVC Binding</tags>
+    <dependencies>
+      <dependency id="SampleDependency" version="1.0" />
+    </dependencies>
+  </metadata>
+</package>
